@@ -1871,3 +1871,30 @@ button,
 #spectrumvr-blurb {
   padding-left: 10%;
   padding-right: 10%; }
+
+#shield {
+  margin-right: 20%;
+}
+
+/* ----------- Non-Retina Screens ----------- */
+@media screen
+  and (min-device-width: 1200px)
+  and (max-device-width: 1600px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+    #interact {
+      margin-left: 7%;
+    }
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen
+  and (min-device-width: 1200px)
+  and (max-device-width: 1600px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) {
+    #interact {
+      margin-left: 7%;
+    }
+}
+
+
